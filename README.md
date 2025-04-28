@@ -1,6 +1,9 @@
 # Orçamento Pessoal
 
-**Orçamento Pessoal** é uma aplicação web interativa criada com **Streamlit** para ajudar os usuários a gerenciar suas receitas e despesas. A aplicação permite que você registre seus dados financeiros, visualize seu saldo atual e salve os dados em um arquivo CSV para posterior consulta.
+**Orçamento Pessoal** é uma aplicação web interativa criada com **Streamlit** para ajudar os usuários a gerenciar suas receitas e despesas.  
+A aplicação permite que você registre seus dados financeiros, visualize seu saldo atual e salve os dados em um arquivo CSV para posterior consulta.
+
+🚀 Acesse a aplicação online aqui: [Orçamento Pessoal Web](https://projetoorcamento.streamlit.app/)
 
 ## Funcionalidades
 
@@ -18,8 +21,6 @@
 ## Como Rodar Localmente
 
 ### 1. Clone este repositório
-
-Primeiro, faça o clone do repositório:
 
 ```bash
 git clone https://github.com/DiBevilacqua/ProjetoOrcamento.git
