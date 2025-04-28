@@ -3,10 +3,6 @@ import streamlit as st
 
 # Função para adicionar dados ao DataFrame do usuário
 def adicionar_dado(tipo, categoria, valor):
-<<<<<<< HEAD
-=======
-    # Verifica se o dicionário do usuário já existe
->>>>>>> 6706113b36fafe03b8c6d163f186b4e699ca734f
     if "dados" not in st.session_state:
         st.session_state.dados = pd.DataFrame(columns=["Tipo", "Categoria", "Valor"])
 
@@ -62,3 +58,4 @@ else:
             st.success(f"Dados salvos para {st.session_state.usuario} como {nome_arquivo}")
         else:
             st.error("Nenhum dado registrado para salvar.")
+
